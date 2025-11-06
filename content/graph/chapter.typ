@@ -1,7 +1,0 @@
-#include "HLD.typ"
-#include "KthAnc.typ"
-#include "LCA.typ"
-#include "bellman.typ"
-#include "bridges.typ"
-#include "dijkstra.typ"
-#include "floyd_washall.typ"
