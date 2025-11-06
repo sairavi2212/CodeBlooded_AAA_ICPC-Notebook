@@ -1,3 +1,5 @@
+== matrix_expo.h
+```cpp
 int **matrixmul(int **matrix1, int **matrix2) {
   int **matrix3 = new int *[2];
   for (int i = 0; i < 2; i++)
@@ -28,3 +30,5 @@ int **matrixexpo(int **matrix, int n, int **ans) {
   }
   return ans;
 }
+
+```

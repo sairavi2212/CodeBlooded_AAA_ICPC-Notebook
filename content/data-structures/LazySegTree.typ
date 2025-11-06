@@ -1,3 +1,5 @@
+== LazySegTree.h
+```cpp
 template <typename T, typename U> struct seg_tree_lazy {
   int S, H;
   T zero;
@@ -95,3 +97,4 @@ struct update {
 // lst.set_leaves(leaves);
 // lst.upd(l, r, {0, value});
 // auto result = lst.query(l, r);
+```

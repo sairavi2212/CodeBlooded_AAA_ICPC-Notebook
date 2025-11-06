@@ -1,3 +1,5 @@
+== bridges.h
+```cpp
 int n;                   // number of nodes
 vector<vector<int>> adj; // adjacency list of graph
 
@@ -104,3 +106,5 @@ vector<pair<int, int>> findBridges(int n, vector<vector<int>> &adj) {
   }
   return bridges;
 }
+
+```

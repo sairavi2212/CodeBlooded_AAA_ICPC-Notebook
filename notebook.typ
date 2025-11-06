@@ -15,7 +15,7 @@
   // header: "IIIT Hyderabad Lazy Two",
   header: context(grid(
     columns: (1fr, 1fr),
-    align(left, "IIIT Hyderabad - Lazy Two"),
+    align(left, "IIIT Hyderabad - Laazy Two"),
     align(right, counter(page).display()),
   )),
 )

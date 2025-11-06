@@ -1,3 +1,5 @@
+== range_update_tree.h
+```cpp
 template <typename T, typename F> struct RangeUpdateTree {
   int n;
   vector<T> tree;
@@ -30,3 +32,4 @@ template <typename T, typename F> struct RangeUpdateTree {
 };
 // ex: RangeUpdateTree<int, decltype(join)> v(vi (n, 1e9), 1e9, join); use auto
 // func for join
+```

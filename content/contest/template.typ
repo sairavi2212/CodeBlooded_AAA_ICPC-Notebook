@@ -1,3 +1,5 @@
+== template.h
+```cpp
 #include <bits/stdc++.h>
 
 #include <ext/pb_ds/assoc_container.hpp>
@@ -45,3 +47,4 @@ signed main() {
   }
   return 0;
 }
+```

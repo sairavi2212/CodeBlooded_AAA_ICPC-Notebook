@@ -1,3 +1,5 @@
+== KthAnc.h
+```cpp
 // O(log n) LCA with Kth anc
 struct LCA {
   int n;
@@ -58,3 +60,4 @@ struct LCA {
   };
   int dist(int u, int v) { return depth[u] + depth[v] - 2 * depth[lca(u, v)]; }
 };
+```

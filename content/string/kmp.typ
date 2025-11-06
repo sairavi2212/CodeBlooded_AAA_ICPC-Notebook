@@ -1,3 +1,5 @@
+== kmp.h
+```cpp
 vector<int> prefix_function(string s) {
   int n = (int)s.length();
   vector<int> pi(n);
@@ -26,3 +28,4 @@ vector<int> KMP(string text, string pattern) {
   }
   return matches;
 }
+```

@@ -1,3 +1,5 @@
+== LCA.h
+```cpp
 // O(1) LCA
 struct LCA {
   int T = 0;
@@ -25,3 +27,4 @@ struct LCA {
   }
   int dist(int a, int b) { return d[a] + d[b] - 2 * d[lca(a, b)]; }
 };
+```

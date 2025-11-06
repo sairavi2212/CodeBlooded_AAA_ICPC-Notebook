@@ -1,3 +1,5 @@
+== HLD.h
+```cpp
 struct HLD {
   int n, timer = 0;
   vi top, tin, p, sub;
@@ -44,3 +46,4 @@ struct HLD {
       op(tin[v] + ignore_lca, tin[v] + sub[v] - 1);
   }
 };
+```
