@@ -1,4 +1,4 @@
-# ICPC**2 icpc team notebook compiled with typst
+# CodeBlooded_AAA icpc team notebook compiled with typst
 To compile the notebook, run
 ```
 make notebook
