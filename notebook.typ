@@ -12,10 +12,10 @@
   margin: (x: 1in, y: 1in),
   // numbering: "1",
   // header: left("hi"),
-  // header: "IIIT Hyderabad Lazy Two",
+  // header: "IIIT Hyderabad CodeBlooded_AAA",
   header: context(grid(
     columns: (1fr, 1fr),
-    align(left, "IIIT Hyderabad - Laazy Two"),
+    align(left, "IIIT Hyderabad - CodeBlooded_AAA"),
     align(right, counter(page).display()),
   )),
 )

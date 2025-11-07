@@ -1,0 +1,8 @@
+#include "LazySegTree.typ"
+#include "Merge_sort_tree_pbds.typ"
+#include "Mos.typ"
+#include "SegTree.typ"
+#include "fenwick.typ"
+#include "node_segtree.typ"
+#include "range_update_tree.typ"
+#include "sparse_table.typ"
