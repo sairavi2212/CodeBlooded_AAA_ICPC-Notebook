@@ -75,26 +75,3 @@ private:
     }
 };
 
-// Example usage (main)
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int n = 5;
-    FenwickRange<long long> fr(n);
-
-    // Add 5 to all elements [0,4]
-    fr.range_add(0, 4, 5);
-
-    // Add 10 to all elements [2,4]
-    fr.range_add(2, 4, 10);
-
-    // Sum of [1,4]
-    int l = 1, r = 4;
-    cout << "Sum of elements from [" << l << "," << r << "] is " << fr.range_sum(l, r) << "\n";
-
-    // print array values
-    for (int i = 0; i < n; ++i) cout << fr.point_query(i) << (i+1<n ? ' ' : '\n');
-
-    return 0;
-}
