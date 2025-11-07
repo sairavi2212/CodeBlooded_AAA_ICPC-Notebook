@@ -45,6 +45,21 @@
 #heading(outlined: true, level: 1)[Strings]
 #include "content/string/chapter.typ"
 
+#heading(outlined: true, level: 1)[DP]
+#include "content/dp/chapter.typ"
+
+#heading(outlined: true, level: 1)[Geometry]
+#include "content/geometry/chapter.typ"
+
+#heading(outlined: true, level: 1)[Math]
+#include "content/math/chapter.typ"
+
+#heading(outlined: true, level: 1)[Misc]
+#include "content/misc/chapter.typ"
+
+#heading(outlined: true, level: 1)[Tricks]
+#include "content/tricks/chapter.typ"
+
 // Add bitwise stuff here
 
 // Numerical section not present in `content/` — commented out to avoid include error.
